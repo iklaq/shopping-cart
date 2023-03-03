@@ -1,2 +1,2 @@
 # shopping-cart
-shopping card website using React.js
+shopping cart website using React.js
