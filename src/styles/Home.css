@@ -1,0 +1,58 @@
+.cards {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.watch-card {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 390px;
+  background-color: white;
+  margin: 40px;
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 70px;
+}
+
+.watch-card img {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 60px;
+}
+
+.watch-card h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.watch-card p {
+  color: gold;
+  font-size: 17px;
+  background-color: rgb(7, 25, 77);
+  margin-left: 110px;
+  margin-right: 110px;
+  padding: 5px;
+}
+
+.watch-card button {
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.watch-card button:hover {
+  background-color: gold;
+  color: black;
+}

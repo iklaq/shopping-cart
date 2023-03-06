@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(4, 18, 61);
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar h1 {
+  margin-left: 10%;
+  color: gold;
+  border-radius: 10px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-style: oblique;
+}
+
+.navbar h1:hover {
+  background-color: rgb(247, 241, 66);
+  color: black;
+}
+
+.cart-icon {
+  width: 60px;
+  margin-right: 10%;
+  background-color: rgb(242, 212, 212);
+  padding: 2px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cart-icon:hover {
+  background-color: rgb(247, 241, 66);
+}
