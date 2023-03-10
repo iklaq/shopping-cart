@@ -1,5 +1,6 @@
 import cartIcon from "../assets/cartIcon.png";
 import "../styles/Navbar.css";
+
 const NavBar = ({ setShowScreen }) => {
   return (
     <div className="navbar">
