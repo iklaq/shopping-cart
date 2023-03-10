@@ -9,9 +9,7 @@ const App = () => {
   const [totalPrice, setTotalPrice] = useState(0);
 
   const addItemToCart = (items) => {
-    const isPresent = isItemExits(items);
-
-    if (!isPresent) {
+   if (!isItemExits(items)) {
       setCartArray([...cartArray, items]);
     }
   };
@@ -53,9 +51,7 @@ const App = () => {
 
   const updateTotatPrice = () => {
     let sum = 0;
-
     cartArray.map((element) => (sum += element.prices * element.quantity));
-
     setTotalPrice(sum);
   };
 
