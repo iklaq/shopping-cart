@@ -2,7 +2,7 @@ import CartData from "./Data";
 import "../styles/Home.css";
 
 const Home = ({ addItemToCart }) => {
-  const Cards = CartData.map((items) => (
+  const cards = CartData.map((items) => (
     <div className="watch-card" key={items.id}>
       <img src={items.logoURL} alt="" />
       <h1>{items.heading}</h1>
@@ -12,7 +12,7 @@ const Home = ({ addItemToCart }) => {
     </div>
   ));
 
-  return <div className="cards">{Cards}</div>;
+  return <div className="cards">{cards}</div>;
 };
 
 export default Home;
